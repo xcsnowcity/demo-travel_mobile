@@ -1,0 +1,2 @@
+<!-- 向子模版中传参时，要用原始语法 -->
+<div class="header"><%include('../../../../components/searchbox/search.art',{})%></div>

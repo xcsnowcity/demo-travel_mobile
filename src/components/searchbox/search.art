@@ -1,0 +1,6 @@
+<div class="search">
+    <i class="fi fi-rr-search"></i>
+    <form action="" method="get" class="search-form">
+        <input type="text" name="words" id="search-words" placeholder="{{placeholder?placeholder:'搜索目的地、折扣、关键字'}}" >
+    </form>
+</div>

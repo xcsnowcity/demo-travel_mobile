@@ -1,0 +1,11 @@
+.swiper-slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.swiper-slide img {
+    width: 100%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <div id="index-page" class="index-layout">
+        <header class="header-layout">
+            {{include './components/header/header.art'}}
+        </header>
+        <div id="index-slider" class="slider-layout">
+            <% include('../../components/loading/loading.art',{
+                text:'loading...',
+                inline:false
+            }) %>
+        </div>
+        <nav id="index-nav" class="nav-layout">
+            {{include './components/nav/nav.art'}}
+        </nav>
+        <div id="index-items" class="items-layout " style="height:500px" >
+            
+        </div>
+        <div id="index-items" class="items-layout" style="height:500px">
+            
+        </div>
+        <div id="index-items" class="items-layout" style="height:500px">
+            
+        </div>
+        <div class="tab-layout">
+            tab
+        </div>
+        <div class="backtop-layout">
+            backtop
+        </div>
+    </div>
+</body>
+</html>
